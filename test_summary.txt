@@ -1,0 +1,6 @@
+import numpy
+
+def test_line_equation():
+assert line_equation(0,0,1,1) == (1,0)
+assert distance_from_point(1,0,1,1) == 0
+assert closest_point(0,0,1,1,numpy.array([[1,1]])) == 0
